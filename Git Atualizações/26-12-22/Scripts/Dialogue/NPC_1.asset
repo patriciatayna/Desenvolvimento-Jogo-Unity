@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb6818709709cc4bb379008c920352a, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 7295839050513044454, guid: 294768fb44b5fad42ab41ff51b780fe7, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: NPC1
+    profile: {fileID: -363294504, guid: 7cc869819b94cdd40b089078346e6248, type: 3}
+    sentence:
+      portuguese: "O que \xE9 Lorem Ipsum?"
+      english: What is Lorem Ipsum?
+      munduruku: "Mba'\xE9pa Lorem Ipsum?"
+  - actorName: 
+    profile: {fileID: 21300000, guid: e807917f98374e44ca150e393303c026, type: 3}
+    sentence:
+      portuguese: "Lorem Ipsum \xE9 simplesmente uma simula\xE7\xE3o de texto da
+        ind\xFAstria tipogr\xE1fica e de impressos, e vem sendo utilizado desde o
+        s\xE9culo XVI"
+      english: Lorem Ipsum is simply a simulation of text from the printing and typesetting
+        industry, and has been in use since the 16th century.
+      munduruku: "Lorem Ipsum ha'e pete\u0129 simulaci\xF3n de texto a\xF1\xF3nte
+        industria de impresi\xF3n ha impresi\xF3n rehegua, ha ojeporu siglo XVI guive."
+  - actorName: 
+    profile: {fileID: 21300000, guid: e807917f98374e44ca150e393303c026, type: 3}
+    sentence:
+      portuguese: quando um impressor desconhecido pegou uma bandeja de tipos e os
+        embaralhou para fazer um livro de modelos de tipos.
+      english: when an unknown printer took a tray of type and scrambled them to
+        make a type pattern book.
+      munduruku: "pete\u0129 impresora ndojekua\xE1iva ojagarr\xE1r\xF5 guare pete\u0129
+        bandeja de tipo ha ombojere chupeku\xE9ra ojapo hag\u0303ua pete\u0129 libro
+        de patr\xF3n de tipo."
